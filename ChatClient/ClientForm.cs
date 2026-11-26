@@ -348,10 +348,10 @@ namespace ChatClient
             Label lblPort = new Label { Text = "Port:", Location = new Point(220, 20), AutoSize = true };
             numPort = new NumericUpDown { Location = new Point(260, 16), Width = 75, Minimum = 1024, Maximum = 65535, Value = 5000 };
             Label lblName = new Label { Text = "Kullanıcı adı:", Location = new Point(345, 20), AutoSize = true };
-            txtUserName = new TextBox { Location = new Point(435, 16), Width = 120, MaxLength = 20 };
+            txtUserName = new TextBox { Location = new Point(435, 16), Width = 100, MaxLength = 20 };
 
-            btnConnect = CreateButton("Bağlan", Theme.Mint, new Point(565, 12), 115);
-            btnDisconnect = CreateButton("Bağlantıyı Kes", Theme.Red, new Point(688, 12), 117);
+            btnConnect = CreateButton("Bağlan", Theme.Mint, new Point(545, 12), 100);
+            btnDisconnect = CreateButton("Bağlantıyı Kes", Theme.Red, new Point(653, 12), 152);
 
             // Orta: sohbet alanı ve kullanıcı listesi
             txtChat = new RichTextBox
