@@ -100,4 +100,4 @@ Mesaj türleri: `Join` (katılma), `Leave` (ayrılma), `Chat` (herkese), `Privat
 ## Öğrenci
 
 - **Ad Soyad:** Sümeyra Adıyaman
-- **Öğrenci No:** BURAYA_NUMARANI_YAZ
+- **Öğrenci No:** 250541012
